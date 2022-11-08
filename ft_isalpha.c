@@ -6,7 +6,7 @@
 /*   By: cyuzbas <cyuzbas@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/04 12:54:01 by cyuzbas       #+#    #+#                 */
-/*   Updated: 2021/10/26 10:55:30 by cyuzbas       ########   odam.nl         */
+/*   Updated: 2022/11/08 15:27:40 by cyuzbas       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,7 @@
 
 int	ft_isalpha(int c)
 {
-	int	x;
-
-	x = 0;
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-	{
-		x = 1;
-	}
-	return (x);
+		return (1);
+	return (0);
 }

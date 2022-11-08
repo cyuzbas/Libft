@@ -6,7 +6,7 @@
 /*   By: cyuzbas <cyuzbas@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/04 13:58:12 by cyuzbas       #+#    #+#                 */
-/*   Updated: 2021/10/26 10:55:45 by cyuzbas       ########   odam.nl         */
+/*   Updated: 2022/11/08 15:28:37 by cyuzbas       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,7 @@
 
 int	ft_isprint(int c)
 {
-	int	i;
-
-	i = 0;
 	if (c >= 32 && c <= 126)
-	{
-		i = 1;
-	}
-	return (i);
+		return (1);
+	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: cyuzbas <cyuzbas@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/04 14:25:21 by cyuzbas       #+#    #+#                 */
-/*   Updated: 2021/10/26 10:53:04 by cyuzbas       ########   odam.nl         */
+/*   Updated: 2022/11/08 15:31:24 by cyuzbas       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,6 @@
 int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
-	{
 		c = c + 32;
-	}
 	return (c);
 }

@@ -6,7 +6,7 @@
 /*   By: cyuzbas <cyuzbas@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/04 13:47:18 by cyuzbas       #+#    #+#                 */
-/*   Updated: 2021/10/26 10:55:34 by cyuzbas       ########   odam.nl         */
+/*   Updated: 2022/11/08 15:28:20 by cyuzbas       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,7 @@
 
 int	ft_isascii(int c)
 {
-	int	x;
-
-	x = 0;
 	if (c <= 127 && c >= 0)
-	{
-		x = 1;
-	}
-	return (x);
+		return (1);
+	return (0);
 }

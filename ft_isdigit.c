@@ -6,7 +6,7 @@
 /*   By: cyuzbas <cyuzbas@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/04 13:27:04 by cyuzbas       #+#    #+#                 */
-/*   Updated: 2021/10/26 10:55:38 by cyuzbas       ########   odam.nl         */
+/*   Updated: 2022/11/08 15:28:28 by cyuzbas       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,7 @@
 
 int	ft_isdigit(int c)
 {
-	int	x;
-
-	x = 0;
 	if (c >= '0' && c <= '9')
-	{
-		x = 1;
-	}
-	return (x);
+		return (1);
+	return (0);
 }

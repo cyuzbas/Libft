@@ -1,22 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_lstlast.c                                       :+:    :+:            */
+/*   ft_abs.c                                           :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: cyuzbas <cyuzbas@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2021/10/18 14:34:22 by cyuzbas       #+#    #+#                 */
-/*   Updated: 2022/11/08 15:29:00 by cyuzbas       ########   odam.nl         */
+/*   Created: 2022/11/08 15:58:25 by cyuzbas       #+#    #+#                 */
+/*   Updated: 2022/11/08 15:58:43 by cyuzbas       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list	*ft_lstlast(t_list *lst)
+int	ft_abs(int i)
 {
-	if (!lst)
-		return (NULL);
-	while (lst->next != NULL)
-		lst = lst->next;
-	return (lst);
+	if (i > 0)
+		return (i);
+	return (-i);
 }

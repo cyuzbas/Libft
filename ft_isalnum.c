@@ -6,7 +6,7 @@
 /*   By: cyuzbas <cyuzbas@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/04 13:38:05 by cyuzbas       #+#    #+#                 */
-/*   Updated: 2021/10/26 10:55:26 by cyuzbas       ########   odam.nl         */
+/*   Updated: 2022/11/08 15:28:07 by cyuzbas       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,7 @@
 
 int	ft_isalnum(int c)
 {
-	int	x;
-
-	x = 0;
 	if (ft_isdigit(c) || ft_isalpha(c))
-		x = 1;
-	return (x);
+		return (1);
+	return (0);
 }
